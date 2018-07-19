@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
+    <img src="./assets/logo.png">
     <ul>
       <li><router-link to="/">Inicio</router-link></li>
       <li><router-link to="/nosotros/">Nosotros</router-link></li>
       <li><router-link to="/servicios/">Servicios</router-link></li>
+      <li><router-link to="/portafolio/">Potafolio</router-link></li>
     </ul>
     <router-view/>
   </div>

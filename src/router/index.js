@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Inicio from '@/components/Inicio'
 import Nosotros from '@/components/Nosotros'
 import Servicios from '@/components/Servicios'
+import Portafolio from '@/components/Portafolio'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/servicios/',
       name: 'Servicios',
       component: Servicios
+    },
+    {
+      path: '/portafolio/',
+      name: 'Portafolio',
+      component: Portafolio
     }
   ]
 })
